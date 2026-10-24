@@ -1,0 +1,10 @@
+node_modules/
+cdk.out/
+cdk.context.json
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+# Real data from scripts/collect_local.py: never committed
+out/

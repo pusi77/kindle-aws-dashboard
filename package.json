@@ -1,0 +1,25 @@
+{
+  "name": "kindle-aws-dashboard",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc",
+    "test": "node --test 'test/**/*.test.ts'",
+    "synth": "cdk synth --quiet",
+    "cdk": "cdk",
+    "test:update": "node --test --test-update-snapshots 'test/**/*.test.ts'"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.274.0",
+    "cdk-nag": "3.0.2",
+    "constructs": "10.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "aws-cdk": "2.1146.1",
+    "typescript": "7.0.2"
+  }
+}

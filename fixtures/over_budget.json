@@ -1,0 +1,105 @@
+{
+  "_note": "Fixture with made-up numbers, not real cost data.",
+  "generated_at": "2026-10-24T13:00:00+00:00",
+  "currency": "USD",
+  "costs": {
+    "mtd": 689.0,
+    "forecast": 905.0,
+    "last_month_same_point": 402.0,
+    "daily": [
+      {
+        "date": "2026-10-11",
+        "amount": 25.56
+      },
+      {
+        "date": "2026-10-12",
+        "amount": 27.18
+      },
+      {
+        "date": "2026-10-13",
+        "amount": 24.84
+      },
+      {
+        "date": "2026-10-14",
+        "amount": 29.52
+      },
+      {
+        "date": "2026-10-15",
+        "amount": 30.6
+      },
+      {
+        "date": "2026-10-16",
+        "amount": 22.14
+      },
+      {
+        "date": "2026-10-17",
+        "amount": 21.42
+      },
+      {
+        "date": "2026-10-18",
+        "amount": 28.08
+      },
+      {
+        "date": "2026-10-19",
+        "amount": 29.16
+      },
+      {
+        "date": "2026-10-20",
+        "amount": 33.12
+      },
+      {
+        "date": "2026-10-21",
+        "amount": 31.86
+      },
+      {
+        "date": "2026-10-22",
+        "amount": 23.58
+      },
+      {
+        "date": "2026-10-23",
+        "amount": 22.68
+      },
+      {
+        "date": "2026-10-24",
+        "amount": 17.1
+      }
+    ],
+    "top_services": [
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "amount": 324.36
+      },
+      {
+        "name": "Amazon Relational Database Service",
+        "amount": 171.72
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "amount": 86.58
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "amount": 54.99
+      },
+      {
+        "name": "AWS Lambda",
+        "amount": 22.21
+      }
+    ],
+    "ce_api_mtd": 2.64
+  },
+  "budgets": [
+    {
+      "name": "Monthly",
+      "limit": 600.0,
+      "actual": 689.0,
+      "forecast": 905.0
+    }
+  ],
+  "anomalies": [],
+  "kindle": {
+    "battery": 84,
+    "last_seen": "2026-10-23T17:05:00+00:00"
+  },
+  "errors": {}
+}

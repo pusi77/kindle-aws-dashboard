@@ -1,0 +1,105 @@
+{
+  "_note": "Fixture with made-up numbers, not real cost data.",
+  "generated_at": "2026-10-24T13:00:00+00:00",
+  "currency": "USD",
+  "costs": {
+    "mtd": 412.34,
+    "forecast": 528.1,
+    "last_month_same_point": 390.0,
+    "daily": [
+      {
+        "date": "2026-10-11",
+        "amount": 14.2
+      },
+      {
+        "date": "2026-10-12",
+        "amount": 15.1
+      },
+      {
+        "date": "2026-10-13",
+        "amount": 13.8
+      },
+      {
+        "date": "2026-10-14",
+        "amount": 16.4
+      },
+      {
+        "date": "2026-10-15",
+        "amount": 17.0
+      },
+      {
+        "date": "2026-10-16",
+        "amount": 12.3
+      },
+      {
+        "date": "2026-10-17",
+        "amount": 11.9
+      },
+      {
+        "date": "2026-10-18",
+        "amount": 15.6
+      },
+      {
+        "date": "2026-10-19",
+        "amount": 16.2
+      },
+      {
+        "date": "2026-10-20",
+        "amount": 18.4
+      },
+      {
+        "date": "2026-10-21",
+        "amount": 17.7
+      },
+      {
+        "date": "2026-10-22",
+        "amount": 13.1
+      },
+      {
+        "date": "2026-10-23",
+        "amount": 12.6
+      },
+      {
+        "date": "2026-10-24",
+        "amount": 9.5
+      }
+    ],
+    "top_services": [
+      {
+        "name": "Amazon Elastic Compute Cloud - Compute",
+        "amount": 180.2
+      },
+      {
+        "name": "Amazon Relational Database Service",
+        "amount": 95.4
+      },
+      {
+        "name": "Amazon Simple Storage Service",
+        "amount": 48.1
+      },
+      {
+        "name": "AmazonCloudWatch",
+        "amount": 30.55
+      },
+      {
+        "name": "AWS Lambda",
+        "amount": 12.34
+      }
+    ],
+    "ce_api_mtd": 2.64
+  },
+  "budgets": [
+    {
+      "name": "Monthly",
+      "limit": 600.0,
+      "actual": 412.34,
+      "forecast": 528.1
+    }
+  ],
+  "anomalies": [],
+  "kindle": {
+    "battery": 84,
+    "last_seen": "2026-10-24T09:05:00+00:00"
+  },
+  "errors": {}
+}

@@ -1,0 +1,13 @@
+{
+  "_note": "Fixture with made-up numbers, not real cost data.",
+  "generated_at": "2026-10-24T13:00:00+00:00",
+  "currency": "USD",
+  "costs": null,
+  "budgets": null,
+  "anomalies": [],
+  "kindle": null,
+  "errors": {
+    "costs": "ThrottlingException",
+    "budgets": "AccessDeniedException"
+  }
+}
